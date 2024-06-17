@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 function Header() {
-  const navLinks = ["Home", "Course", "Contact Us", "About"];
+  const navLinks = ["Home", "Course", "Contact", "About"];
   const [navbar, setNavbar] = useState("Home");
   const handleNavClick = (link) => {
     console.log("Clicked link:", link); // Debug: log the clicked link
     setNavbar(link);
   };
   return (
-    <header className="px-20 py-5 border-2 border-b-black fixed top-0 left-0 w-full bg-white">
-      <div className="flex w-full h-full items-center justify-between">
+    <header className="px-20 py-5 border-2 border-b-black fixed top-0 left-0 w-full bg-white z-50">
+      <div className="flex w-full h-full items-center justify-between ">
         <div>
           <a href="#" className="text-blue-400 text-3xl font-extrabold">
             BookStore

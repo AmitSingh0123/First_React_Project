@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HomeImage from "../../../public/image.png";
+import Card from "../Cards/Card";
+import BookData from '../../../public/list.json'
 
 function Home() {
+  const [freeBooks, setFreeBooks] = useState([]);
+
+  useEffect(() => {
+    const findFreeBooks = () => {
+      return BookData.filter(book => book.book_type === "Free");
+    };
+    setFreeBooks(findFreeBooks());
+  }, []);
   return (
-    <main className="w-full px-20 py-10 mt-10">
+    <main className="w-full px-20 py-10 mt-10 bg-white">
       <section className="flex gap-10 items-center container h-full">
         <div className="w-1/2">
           <h1 className="text-black text-4xl">
@@ -34,13 +44,15 @@ function Home() {
           </div>
         </div>
         <div className="w-1/2">
-          <img src={HomeImage} alt="image" className="h-full"/>
+          <img src={HomeImage} alt="image" className="h-full" />
         </div>
       </section>
       <section>
-        <h2 className="text-5xl text-black font-semibold">Our Books..</h2>
-        <div>
-          
+        <h2 className="text-5xl text-black font-semibold border-b-blue-700 border-b-4 p-2">Our Free Books..</h2>
+        <div className="flex overflow-hidden gap-5 items-center flex-wrap mt-10">
+          {freeBooks.map((item,index)=><Card item={item} key={index}/>)}
+
+          <Card />
         </div>
       </section>
     </main>

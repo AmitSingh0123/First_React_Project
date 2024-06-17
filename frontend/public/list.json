@@ -1,0 +1,72 @@
+[
+  {
+      "title": "The Great Gatsby",
+      "book_type": "Free",
+      "description": "A classic novel by F. Scott Fitzgerald set in the Jazz Age.",
+      "price": 0,
+      "image_link": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTg7mIUW93-ZMJ4exWMjm-TXD6NzjynXZkkG-ssn1jCh_HTHO0ppSVzo49obr_m3UCb6HIagziYKFG-c7_aIxKeAqPOOWMuZUp1QSf3FYcaj099Wbu95OGe&usqp=CAE"
+  },
+  {
+      "title": "1984",
+      "book_type": "Paid",
+      "description": "A dystopian novel by George Orwell about totalitarianism.",
+      "price": 9.99,
+      "image_link": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTgEyhCG9ea2T_i_iD1uhRtI_0ZN80h0X17cOlTDIXF7zUO4c3VOpTBrJVpMUvDJPuL1nD8OTQarJMuy80zAa-0z-n-AeXpRQx0xT5K8qU0a9iJDqAcV7Fl&usqp=CAE"
+  },
+  {
+      "title": "To Kill a Mockingbird",
+      "book_type": "Paid",
+      "description": "Harper Lee's timeless novel about racism and justice in the Deep South.",
+      "price": 12.99,
+      "image_link": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTg7mIUW93-ZMJ4exWMjm-TXD6NzjynXZkkG-ssn1jCh_HTHO0ppSVzo49obr_m3UCb6HIagziYKFG-c7_aIxKeAqPOOWMuZUp1QSf3FYcaj099Wbu95OGe&usqp=CAE"
+  },
+  {
+      "title": "Pride and Prejudice",
+      "book_type": "Free",
+      "description": "Jane Austen's classic novel of manners, morality, and marriage.",
+      "price": 0,
+      "image_link": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQhZWN5Z6WJoR5xSZCglOqbCh-r_KzNedGcgxO7nIBLKLFVvtU88JKay3WhkSHcs4NWFc--tsXgKrA1AvLSqHNxodzxJ5wwTiKFZIMsUaJM&usqp=CAE"
+  },
+  {
+      "title": "The Catcher in the Rye",
+      "book_type": "Paid",
+      "description": "J.D. Salinger's novel about teenage rebellion and alienation.",
+      "price": 8.99,
+      "image_link": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSMvmzaTuRpvxHGPIyb6ZOibTZQZNuMNLGUeVvSf9cApxwPdDHu9mBkBYDs6-vi7aWMImcpWv_gAZ_jbCe44nmIR5HPSPPAa6zak9vfGvrWLs8F5irB2-OPrw&usqp=CAE"
+  },
+  {
+      "title": "The Hobbit",
+      "book_type": "Paid",
+      "description": "J.R.R. Tolkien's prelude to the Lord of the Rings, an adventure of a lifetime.",
+      "price": 10.99,
+      "image_link": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSqjmFKXfAENj8on_xPQMfc8dt6HtxjA_o2tMpKVt-lUNNA_LEXKBOwjfFylBKqCX3tWSOzCaOdhn72sX05bGbzCrku4I0z_HX5_9qP7S9x56ESLxEogrCm&usqp=CAE"
+  },
+  {
+      "title": "Moby Dick",
+      "book_type": "Free",
+      "description": "Herman Melville's epic tale of the sea and the great white whale.",
+      "price": 0,
+      "image_link": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSqjmFKXfAENj8on_xPQMfc8dt6HtxjA_o2tMpKVt-lUNNA_LEXKBOwjfFylBKqCX3tWSOzCaOdhn72sX05bGbzCrku4I0z_HX5_9qP7S9x56ESLxEogrCm&usqp=CAE"
+  },
+  {
+      "title": "War and Peace",
+      "book_type": "Paid",
+      "description": "Leo Tolstoy's monumental novel of Russian society during the Napoleonic era.",
+      "price": 15.99,
+      "image_link": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRjvp4GuqY8Yr2QNyiAOipzdt4WJqzSpZ5u9053tnKufXJT0rFP01jIdbG8WUZDdHmMXDUu9tbQ-0o7wyUys2jpPkbqUZ7-jBOdGTpMYVI&usqp=CAE"
+  },
+  {
+      "title": "The Odyssey",
+      "book_type": "Free",
+      "description": "Homer's ancient Greek epic poem of Odysseus' adventures.",
+      "price": 0,
+      "image_link": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTaKTfjnIzLW5YLK19SXzWmWCAnS_tv9EdjV6PBgwsp-z37OIkTCzbq6JcDfbpS4FYP6Vy5oBpmsaLvmGALQsQ6WwENflM2saHygck0XIQ&usqp=CAE"
+  },
+  {
+      "title": "Brave New World",
+      "book_type": "Paid",
+      "description": "Aldous Huxley's vision of a dystopian future driven by technology and conditioning.",
+      "price": 11.99,
+      "image_link": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRhrE2lKYd2juvS8MV3TGLAmbAw_oMCa6hFB0RcBTtLfztr2v640ekdUv8I1Nx5gSpDgZPLfGBt1sacNJlDQSoheWUTJB7ckq7iGicT0D14&usqp=CAE"
+  }
+]
