@@ -9,9 +9,10 @@ import {
 import Course from './Componets/Pages/Course';
 import About from './Componets/Pages/About';
 import Contact from './Componets/Pages/Contact';
+import SigIn from './Componets/SignIn/SigIn';
 const router = createBrowserRouter([
   {
-    path: "/Home",
+    path: "/home",
     element: <Home/>,
   },
   {
@@ -26,12 +27,16 @@ const router = createBrowserRouter([
     path: "/About",
     element: <About/>,
   },
+  {
+    path: "/signin",
+    element: <SigIn/>,
+  },
 ]);
 
 function App() {
   return (
     <>
-    <div className='bg-white w-full h-full'>
+    <div className=' w-full h-full dark:bg-slate-900 dark:text-white'>
     <Header/>
     <RouterProvider router={router} />
     <Footer/>
