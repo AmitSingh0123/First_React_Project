@@ -15,7 +15,7 @@ function Login() {
         <div className={`modal-box bg-white text-black`}>
           <form method="dialog" onSubmit={handleSubmit(onSubmit)}>
            
-            <a href="/home" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={()=>setLogin(true)}>
+            <a href="/home" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 tsdfg" onClick={()=>setLogin(true)}>
               ✕
             </a>
           
